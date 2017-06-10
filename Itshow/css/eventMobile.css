@@ -1,0 +1,312 @@
+﻿* { padding: 0; margin: 0; border: 0; } 
+html {
+    background: none repeat scroll 0 0 #FFFFFF!important;
+    color: #000000;
+    }
+body, div, dl, dt, dd, ul, ol, li, h2, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    }
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+fieldset, img {
+    border: 0 none;
+    }
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+    }
+li {
+    list-style: none outside none;
+    }
+caption, th {
+    text-align: left;
+    }
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+    }
+
+q:before, q:after {
+    content: "";
+    }
+abbr, acronym {
+    border: 0 none;
+    font-variant: normal;
+    }
+sup {
+    vertical-align: text-top;
+    }
+sub {
+    vertical-align: text-bottom;
+    }
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    }
+input, textarea, select {
+    }
+legend {
+    color: #000000;
+    }
+body {
+    font: 0.16rem/1.231 '微软雅黑',arial,helvetica,clean,sans-serif;
+    }
+select, input, button, textarea {
+    font: 99% arial,helvetica,clean,sans-serif;
+    }
+table {
+    font-size: inherit;
+    }
+pre, code, kbd, samp, tt {
+    font-family: monospace;
+    line-height: 100%;
+    }
+a {
+    color: black;
+    text-decoration: none;
+    }
+a:hover, a:focus {
+    text-decoration: none;
+    }
+strong {
+    font-weight: bold;
+    }
+input[type="submit"] {
+    cursor: pointer;
+    }
+button {
+    cursor: pointer;
+    }
+.clearfix { *zoom:1; }
+ul li{
+    list-style-type:none:
+    }
+.clearfix:after{
+        content: ".";
+        display: block;
+        height: 0; 
+        clear: both;
+        visibility: hidden;     
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    background:url(../images/background3.png);
+    background-size: cover;
+    height: 10.5rem;
+}
+.activity-mid-line{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: #e94e1b;
+    width: 2px;
+    margin:0 auto;
+    margin-left: -1px;
+    height: 0px;
+}
+.clock-box{
+    position: absolute;
+    left: 50%;
+    margin-left: -0.45rem;
+    width: 0.9rem;
+    height: 6.9rem;
+    top:2.75rem;
+
+}
+.clock{
+    position: absolute;
+    cursor: pointer;
+    height: 1.10rem;
+    width: 0.90rem;
+    z-index: 2;
+     overflow: visible !important;
+
+}
+.clock img{
+    width: 100%;
+    height:auto;
+
+}
+.clock a{
+    position:absolute;
+    top:0.9rem;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    margin-left: -0.45rem;
+    display: block;
+    color:#e94e1b;
+    font-size: 0.16rem;
+
+}
+.clock0{
+    top:0px;
+}
+.clock1{
+    top:2.20rem;
+}
+.clock2{
+    top:4.40rem;
+}
+.clock3{
+    top:6.60rem;
+}
+.colck-image-box
+{
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    z-index: 2;
+    overflow: hidden;
+
+}
+.accomplishment{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.accomplishment-row {
+    position: relative;
+    width: 100%;
+    
+}
+.accomplishment-left {
+    margin-top: -0.1rem;
+    width: 50%;
+    position: absolute;
+    left: -100%;
+}
+.accomplishment-right {
+     margin-top: -0.1rem;
+    width: 50%;
+    position: absolute;
+    left:100%;
+}
+.accomplishment-left h2{
+    
+    position: absolute;
+    left: -1.37rem;
+}
+.accomplishment-right p{
+   
+    margin-left: 0.75rem;
+    margin-right: 0.3rem;
+}
+.accomplishment-right span{
+   
+    line-height: 0.25rem;
+}
+.accomplishment-left img{
+    margin-left: -5px;
+}
+.accomplishment-14{
+     height:1px;
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+.accomplishment-15{
+    height:1px;
+     width: 100%;
+    position: absolute;
+    display: none;
+}
+.accomplishment-16{
+     height:1px;
+     width: 100%;
+    position: absolute;
+    display: none;
+}
+.accomplishment-17{
+     height:1px;
+     width: 100%;
+    position: absolute;
+
+}
+
+.bottomText{
+    position: relative;
+    top:500px;
+    text-align: center;
+
+}
+.min-top{
+    top:1.87rem;
+    height: 1.64rem;
+    width: 2.38rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -1.19rem;
+    margin-top: -0.82rem;
+    overflow: hidden;
+
+}
+.number{
+    position: absolute;
+    left: 50%;
+    margin-top: 0.3rem;
+    margin-left: -0.18rem;
+     font-size: 0.30rem;
+    line-height: 0.45rem;
+}
+.number span{
+    position: absolute;
+    width: 0.32rem;
+    height: 3px;
+    left: 5%;
+    background-color:  #e94e1b;
+    top:  0.55rem;
+    border-radius: 2px;
+}
+.department{
+    position: absolute;
+    top:10%;
+    left: 50%;
+    margin-top:0.75rem;
+    margin-left: -0.75rem;
+    font-size: 0.30rem;
+    line-height: 0.45rem;
+}
+.accomplishment-14{
+    top:3.37rem;
+}
+.accomplishment-15{
+    top:4.07rem;
+}
+.accomplishment-16{
+    top:4.77rem;
+}
+.accomplishment-17{
+    top:5.47rem;
+}
+.open1{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    left: 50%;
+    position: fixed;
+    margin-left: -350px;
+    margin-top: -250px;
+    z-index: 12;
+    }
+.mask1{
+    background-color:white;
+    opacity:0.9;
+    filter: alpha(opacity=50); 
+    position:absolute; 
+    left:0;
+    top:0;
+    z-index:10;
+}
+.bottomText{
+    position: relative;
+    top:500px;
+    text-align: center;
+
+}
